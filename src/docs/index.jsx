@@ -1,15 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
-import MyClass from './../lib/index';
+import http2https from './../lib/index';
 
 import './styles.css';
 
+http2https.go();
+
 function Demo() {
-	return (
-		<>
-			<MyClass />
-		</>
-	);
+	return <></>;
 }
 
 render(<Demo />, document.getElementById('app'));
