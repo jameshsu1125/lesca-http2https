@@ -3,21 +3,18 @@
 # Installation
 
 ```sh
-$ npm install <package> --save
+$ npm install lesca-http2https --save
 ```
 
 # Usage
 
 ```javascript
-import foo from 'foo';
+import Http2https from 'lesca-http2https';
+Http2https.go();
 ```
 
 # Methods
 
-| method | options | description | default |
-| :----- | :-----: | :---------: | ------: |
-
-# Properties
-
-| Properties | type | description | default |
-| :--------- | :--: | :---------: | ------: |
+| method | options |     description     | default |
+| :----- | :-----: | :-----------------: | ------: |
+| go()   |         | redirect url to SSL |         |
