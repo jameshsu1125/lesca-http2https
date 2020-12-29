@@ -10,7 +10,7 @@ $ npm install lesca-http2https --save
 
 ```javascript
 import Http2https from 'lesca-http2https';
-Http2https.go();
+Http2https.go(); // http://www.exsamle.com => https://www.exsamle.com
 ```
 
 # Methods
