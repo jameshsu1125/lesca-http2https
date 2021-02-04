@@ -1,6 +1,6 @@
 {
 	"name": "lesca-http2https",
-	"version": "1.0.2",
+	"version": "1.0.5",
 	"description": "redirect url to SSL",
 	"main": "lib/index.js",
 	"scripts": {

@@ -1,10 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
-import http2https from './../lib/index';
+import Http2https from './../lib/index';
 
 import './styles.css';
 
-http2https.go();
+Http2https.go();
+console.log(Http2https);
 
 function Demo() {
 	return <></>;
